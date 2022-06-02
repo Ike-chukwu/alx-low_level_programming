@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ *
+ * main-using puts function
+ *
+ * Return: always 0 {Success)
+ */
 int main(void)
 {
 
