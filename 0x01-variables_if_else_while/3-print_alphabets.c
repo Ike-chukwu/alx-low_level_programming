@@ -6,14 +6,14 @@
  */
 int main(void)
 {
-	char alp_l[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alp[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	int i;
 
 	for (i = 0; i < 52; i++)
 	{
-		putchar(alp_l[i]);
+		putchar(alp[i]);
 	}
-	putchar("\n")
+	putchar('\n')
 	return (0);
 }
 
