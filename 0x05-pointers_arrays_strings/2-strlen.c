@@ -7,10 +7,12 @@
  */
 size_t _strlen(const char *str)
 {
-	size_t len = 0;
+	int size, i;
 
-	while (*str++)
-		length++;
-
-	return (length);
+	size = 0;
+	for (i = 0; s[i] != 0; i++)
+	{
+		size++;
+	}
+	return (size);
 }
