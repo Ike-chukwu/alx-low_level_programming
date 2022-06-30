@@ -1,5 +1,3 @@
-#ifndef _MAINN_H_
-#define _MAIN_H_
 
 int _putchar(char c);
 int _islower(int c);
@@ -20,20 +18,4 @@ char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
 unsigned int _strspn(char *s, char *accept);
 char *_strpbrk(char *s, char *accept);
-char *_strstr(char *haystack, char *needle);
-
-#endif /* _MAIN_H_ */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+char *_strstr(char *haystack, char *needle);/* _MAIN_H_ */
